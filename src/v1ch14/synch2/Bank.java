@@ -1,4 +1,4 @@
-package synch2;
+package v1ch14.synch2;
 
 /**
  * A bank with a number of bank accounts that uses synchronization primitives.

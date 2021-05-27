@@ -1,4 +1,4 @@
-package future;
+package v1ch14.future;
 
 import java.io.*;
 import java.util.*;

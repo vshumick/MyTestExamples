@@ -1,4 +1,4 @@
-package blockingQueue;
+package v1ch14.blockingQueue;
 
 import java.io.*;
 import java.util.*;

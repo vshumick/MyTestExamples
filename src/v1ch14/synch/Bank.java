@@ -1,4 +1,4 @@
-package synch;
+package v1ch14.synch;
 
 import java.util.concurrent.locks.*;
 

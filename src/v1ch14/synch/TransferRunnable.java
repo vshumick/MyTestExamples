@@ -1,4 +1,4 @@
-package synch;
+package v1ch14.synch;
 
 /**
  * A runnable that transfers money from an account to other accounts in a bank.

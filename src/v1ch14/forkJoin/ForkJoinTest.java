@@ -1,4 +1,4 @@
-package forkJoin;
+package v1ch14.forkJoin;
 
 import java.util.concurrent.*;
 
