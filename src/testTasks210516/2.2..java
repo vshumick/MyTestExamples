@@ -75,6 +75,7 @@ class Solution2 {
         for(WordFreq wordFreq: collection) {
             System.out.println(wordFreq.word + ":" + wordFreq.frequency);
         }
+        //collection.stream().forEach(x -> System.out.println(x.word + ":" + x.frequency));
     }
 
     public static void main(String[] args) throws Exception {
