@@ -19,7 +19,7 @@ public class ArraySort {
         System.out.println("------------------------------------------------------------------------------------------");
         long timeStart = System.currentTimeMillis();
         //bubbleSort(arr);
-        quickSort(arr);
+        //quickSort(arr);
         //mergeSort(arr,0, arr.length - 1);
         shakerSort(arr);
         System.out.println(Arrays.toString(arr));
