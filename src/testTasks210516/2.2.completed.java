@@ -1,3 +1,5 @@
+package testTasks210516;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -22,7 +24,7 @@ import java.util.stream.Collectors;
  */
 
 
-class Solution {
+class Solution3 {
 
     public class WordFreq implements Comparable<WordFreq> {
         int frequency = 0;
@@ -76,9 +78,10 @@ class Solution {
     }
 
     public static void main(String[] args) throws Exception {
-        Solution topFreq = new Solution();
+        Solution3 topFreq = new Solution3();
 
-        File f = new File("./data/sample.txt");
+        File f = //new File("./data/sample.txt");
+                new File("./src/sample.txt");
 
         Collection<WordFreq> collection = topFreq.getTopWords(f, 3);
 

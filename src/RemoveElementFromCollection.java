@@ -21,17 +21,17 @@ public class RemoveElementFromCollection {
     }
 
     private static void deleteElement(Collection<SomeClass> col, SomeClass element) {
-        while (col.contains(element)){
+        /*while (col.contains(element)){
             col.remove(element);
-        }
-        /*Iterator iterator = col.iterator();
+        }*/
+        Iterator iterator = col.iterator();
         while (iterator.hasNext()){
             //iterator.next();
 
             if (iterator.next().equals(element)){
                 iterator.remove();
             }
-        }*/
+        }
     }
 }
 
